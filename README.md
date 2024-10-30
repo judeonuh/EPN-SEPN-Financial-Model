@@ -1,5 +1,11 @@
 # EPN-SEPN Financial Model
 ___
+
+### Description
+___
+This is a simple financial model built on Microsoft Excel for automating data entry, cleaning, analysis and visualisation of a Power company's financial data.
+This project extracts annual sales records for a Power Company, analysing the data across their networks with respect to customer bands. Analyses is expected to reveal profit/loss trends, consumption patterns, customer churn/retention, etc., facilitating decision-making processes.  
+
 ### Table of Contents
 ___
 - [Description](#description)
@@ -12,12 +18,6 @@ ___
 - [Recommendations](#recommendations)
 - [References](#references)
 - [License](#license)
-
-
-### Description
-___
-This is a simple financial model built on Microsoft Excel for automating data entry, cleaning, analysis and visualisation of a Power company's financial data.
-This project extracts annual sales records for a Power Company, analysing the data across their networks with respect to customer bands. Analyses is expected to reveal profit/loss trends, consumption patterns, customer churn/retention, etc., facilitating decision-making processes.  
 
 
 ### Technologies
