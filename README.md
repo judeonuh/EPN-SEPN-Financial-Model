@@ -35,7 +35,7 @@ ___
 - Data analysis was performed on Microsoft Excel. Download and install MS Excel on your machine. If you have not already, this software can be downloaded [here](https://www.microsoft.com/en-gb/microsoft-365/excel?ef_id=_k_7f6ebb9ae2b216bcec3edc83309dd670_k_&OCID=AIDcmmp20rgnjr_SEM__k_7f6ebb9ae2b216bcec3edc83309dd670_k_&msclkid=7f6ebb9ae2b216bcec3edc83309dd670).
 - Ensure all data files are located in the same directory and maintain a consistent naming pattern for all files.
 > [!WARNING]
-> Saving files on an online platform (e.g. OneDrive) could cause any link in the file to load slower, throwing up warning alerts.
+> Saving files on an online platform (e.g. OneDrive) could cause any link in the file to load slower, throwing up warning alerts. So, preferrably, save files on desktop or "C Drive"
 
 
 ### Data Cleaning and Preprocessing
