@@ -13,8 +13,8 @@ ___
 - [Data Sources](#data-sources)
 - [Usage Instructions](#usage-instructions)
 - [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
-- [Data Analysis](#data-analysis)
-- [Results and Discussions](#results-and-discussions)
+- [Data Analysis and Discussion](#data-analysis-and-discussion)
+- [Replicating Model](#replicating-model)
 - [Recommendations](#recommendations)
 - [References](#references)
 - [License](#license)
@@ -48,25 +48,34 @@ On the financial model...
 > On your excel sheet, ensure the number format for the "Name" column is set to "General"
 - Using VLOOKUP function, extract the Residual Charging Bands of each customer from their respective data sheets.
 - Populate the Import Fixed Charges (IFC) for each customer from 2020 - 2024 using VLOOKUP function.
+> [!WARNING]
+> For quick retrieval of the IFC: After using VLOOKUP for the first IFC column, say 2020_IFC, copy the formular for this column into the next column, say 2021_IFC. Next, naviagte to the formular bar on this column and change the year accordingly - in this case, from 2020/21 to 2021/22.
+> Repeat same for every column. This way, the model allows you to extract any customer's IFC for any year by just editing the year on the formular bar.
 - Calculate the Annual Fixed Charge (AFC) (in £) for each customer by dividing IFC (this is in pence) by 100 and multiplying by 365 or 366 (for a leap year)
 - Calculate the Year-on-Year percentage change on AFC using the formular "(current year AFC/ previous year AFC)-1"
 - Summarise data using pivot table and chart
 
-### Data Analysis
+### Data Analysis and Discussion
 ___
-```SQL
-SELECT *
-FROM table;
-```
 
-### Results and Discussions
+
+### Replicating Model
 ___
+
+To replicate this model for any new Network/region of customers...
+- Create a copy of your model and rename this copy as the new Network/region
+- Delete all the records presently on the new sheet EXCEPT the first 5 records.
+- Change the links for any chosen cell. By doing this, the model extracts data from the new linked data sheet without the need for formulars again.
+- To edit links...
+  -  Go to "Data" Tab, click on "Edit Links".
+  -  From the opened dialogue box, select the new data sheet you want and click on "Change Source".
+  -  Click "Close" when finished.
+  -  Select all records and fill downwards
+- Refresh any Pivot table connected to your data
+> [!CAUTION]
+> It is recomended to break all links before exporting or sharing your model with others, for security reasons.
+> Go to "Data" Tab, click on "Edit Links", select all links and click "Break link".
+> NOTE: Broken lnks can not be undone!
 
 ### Recommendations
-___
-
-### References
-___
-
-### License
 ___
