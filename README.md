@@ -40,7 +40,17 @@ ___
 
 ### Data Cleaning and Preprocessing
 ___
-Data was cleaned using 'trim' function to remove trailing whitespaces; 'ifferror' to assign values to empty cells that may return '#N/A' errors. 
+
+On the financial model...
+- Data was cleaned using 'trim' function to remove trailing whitespaces; 'ifferror' to assign values (0 for numerical columns or "-" for text columns ) to empty cells that may return '#N/A' errors.
+- To get the names of customers on the "Name" column for each sheet, link/extract this from their respective data sheets.
+> [!Warning]
+> On your excel sheet, ensure the number format for the "Name" column is set to "General"
+- Using VLOOKUP function, extract the Residual Charging Bands of each customer from their respective data sheets.
+- Populate the Import Fixed Charges (IFC) for each customer from 2020 - 2024 using VLOOKUP function.
+- Calculate the Annual Fixed Charge (AFC) (in £) for each customer by dividing IFC (this is in pence) by 100 and multiplying by 365 or 366 (for a leap year)
+- Calculate the Year-on-Year percentage change on AFC using the formular "(current year AFC/ previous year AFC)-1"
+- Summarise data using pivot table and chart
 
 ### Data Analysis
 ___
