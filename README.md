@@ -18,13 +18,11 @@ ___
 - [Data Analysis and Discussion](#data-analysis-and-discussion)
 - [Replicating Model](#replicating-model)
 - [Recommendations](#recommendations)
-- [References](#references)
-- [License](#license)
 
 
 ### Technologies
 ___
-- Microsoft Excel
+- Microsoft Excel (2021)
 
 
 ### Data Sources
@@ -67,8 +65,8 @@ ___
 To replicate this model for any new Network/region of customers...
 - Create a copy of your model and rename this copy as the new Network/region
 - Delete all the records presently on the new sheet EXCEPT the first 5 records.
-- Change the links for any chosen cell. By doing this, the model extracts data from the new linked data sheet without the need for formulars again.
-- To edit links...
+- Select any cell from the above 5 records and change the links to your new data sheet. By doing this, the model automatically extracts data from the new linked data sheet without the need to rewrite formulars again. To edit/change links...
+  -  Select a non-empty cell
   -  Go to "Data" Tab, click on "Edit Links".
   -  From the opened dialogue box, select the new data sheet you want and click on "Change Source".
   -  Click "Close" when finished.
