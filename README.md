@@ -1,6 +1,8 @@
 # Power Network Financial Model
 ___
 
+![Power_image](power_image.jpg)  
+
 ### Description
 ___
 This is a simple financial model built on Microsoft Excel for automating data entry, cleaning, analysis and visualisation of a Power company's financial data.
