@@ -1,4 +1,4 @@
-# EPN-SEPN Financial Model
+# Power Network Financial Model
 ___
 
 ### Description
