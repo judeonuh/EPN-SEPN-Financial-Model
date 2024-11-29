@@ -1,4 +1,4 @@
-# Power Network Financial Model
+# Power Network Excel Financial Model
 ___
 
 ![Power_image](power_image.jpg)  
@@ -17,7 +17,7 @@ ___
 - [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
 - [Data Analysis and Discussion](#data-analysis-and-discussion)
 - [Replicating Model](#replicating-model)
-- [Recommendations](#recommendations)
+- [Further Improvements](#further-improvements)
 
 
 ### Technologies
@@ -27,7 +27,7 @@ ___
 
 ### Data Sources
 ___
-Datasets for this project was obtained from a data company and files named according to the regions within their power network
+Datasets for this project was obtained from a Power company and files named according to the regions within their power network
 
 
 ### Usage Instructions
@@ -77,5 +77,6 @@ To replicate this model for any new Network/region of customers...
 > Go to "Data" Tab, click on "Edit Links", select all links and click "Break link".
 > NOTE: Broken lnks can not be undone!
 
-### Recommendations
+### Further Improvements
+This model has been tested and found to work efficiently. However, it is still underdevelopment, hence would appreciate suggestions on how to improve the model's efficiency. Thanks 🥰
 ___
